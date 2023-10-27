@@ -5,10 +5,10 @@
         <p class="lead"><strong>Please check your email</strong> for further instructions on how to complete your account setup.</p>
         <hr>
         <p>
-            Having trouble? <a href="mailTo: Namdpph26892@fpt.edu.vn">Contact us</a>
+            Having trouble? <a href="mailTo: hamsangg@gmail.com">Contact us</a>
         </p>
         <p class="lead">
-            <a class="btn btn-primary btn-sm" role="button">Continue to homepage</a>
+            <a class="btn btn-primary btn-sm" href="/home" role="button">Continue to homepage</a>
         </p>
     </div>
 @endsection

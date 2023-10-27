@@ -43,9 +43,9 @@ Route::middleware('auth')->group(function () {
         Route::resource('/users', UserController::class);
         Route::resource('/sizes', SizeController::class);
         Route::resource('/orders', OrderController::class);
-    })->middleware('role:admin');
+    })->middleware('role:admin');   
 
-    Route::prefix('customer')->group(function () {
+    Route::prefix('')->group(function () {
         Route::resource('/home', HomeController::class);
         Route::resource('/cart', CartController::class);
 //        Route::post('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');

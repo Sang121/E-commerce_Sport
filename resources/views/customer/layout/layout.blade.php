@@ -12,7 +12,7 @@
 
 
     <!-- site metas -->
-    <title>Eflyer</title>
+    <title>TST Sport</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="logo"><a href="{{route('home.index')}}"><h1 style="font-weight: bold;font-size: 50px;color: white">TST SPORT</h1></a></div>
+                    <div class="logo"><a href="{{route('home.index')}}"><h1 style="font-weight: bold;font-size: 50px;color: white"> Welcome to TST SPORT</h1></a></div>
                 </div>
             </div>
         </div>
