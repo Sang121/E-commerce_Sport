@@ -48,7 +48,7 @@ Route::middleware('auth')->group(function () {
     Route::prefix('')->group(function () {
         Route::resource('/home', HomeController::class);
         Route::resource('/cart', CartController::class);
-//        Route::post('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
+
         Route::post('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
         Route::post('/checkout/place-order', [CheckoutController::class, 'placeOrder'])->name('checkout.place-order');
         Route::get('/checkout/success', [CheckoutController::class, 'success'])->name('checkout.success');
