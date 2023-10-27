@@ -71,7 +71,7 @@
                             <li><a href="#">New Releases</a></li>
                             <li><a href="#">Today's Deals</a></li>
                             <li><a href="#">Customer Service</a></li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@
                 <li><a href="#">Customer Service</a></li>
             </ul>
         </div>
-        <div class="location_main">Help Line  Number : <a href="#">0355 262 101</a></div>
+        <div class="location_main">Help Line  Number : <a href="#">0352797320</a></div>
     </div>
 </div>
 <!-- footer section end -->
